@@ -179,3 +179,18 @@ npm install
 npm run lint
 npm run test
 ```
+
+## Testsigma Dev Setup
+
+Configure the GitHub Packages registry in `~/.npmrc`:
+
+```bash
+@testsigmainc:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=<YOUR_GITHUB_TOKEN>
+```
+
+Install the driver:
+
+```bash
+~/.testsigma/appium/appium driver install --source=npm @testsigmainc/appium-geckodriver@1.4.4
+```
