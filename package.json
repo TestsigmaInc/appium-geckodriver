@@ -1,5 +1,5 @@
 {
-  "name": "appium-geckodriver",
+  "name": "@testsigmainc/appium-geckodriver",
   "description": "Appium driver for Gecko-based browsers and web views",
   "keywords": [
     "appium",
@@ -12,10 +12,13 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/appium/appium-geckodriver.git"
+    "url": "https://github.com/TestsigmaInc/appium-geckodriver.git"
   },
   "bugs": {
-    "url": "https://github.com/appium/appium-geckodriver/issues"
+    "url": "https://github.com/TestsigmaInc/appium-geckodriver/issues"
+  },
+  "publishConfig": {
+    "@testsigmainc:registry": "https://npm.pkg.github.com"
   },
   "engines": {
     "node": ">=14",
